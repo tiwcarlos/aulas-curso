@@ -24,3 +24,54 @@ header{
     font-size: 26px;
     text-transform: uppercase;
 }
+section{
+    padding: 20px;
+    background-image: url('../imagens/people.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+section p{
+    text-align: justify;
+}
+
+section h2{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+.formconteiner{
+    max-width: 230px;
+    background-color: #ffffffbb;
+    padding: 20px;
+    float: right;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    border:none;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+/* modificando um elemento html pelo type dele */
+input[type="submit"]{
+    background-color: #48C5CE;
+    color: #FFF;
+    font-weight: bold;
+}
+
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+
+    background-image: url('../imagens/arrow.jpg');
+    background-repeat: no-repeat;
+
+    background-position: calc(100% - 10px)center;
+}
